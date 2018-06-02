@@ -1,0 +1,187 @@
+@import url('@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto+Condensed');');
+
+.logo {
+  width: 100px;
+  line-height: 60px;
+}
+
+.navbar-personal{
+  background: #2D882D;
+  height: 60px;
+}
+
+
+
+.navbar-personal ul li a:hover{
+  background: #004400;
+  height: 60px;
+  color:#fff;
+}
+
+.navbar-personal a{
+  color:#fff;
+  line-height: 30px;
+}
+
+.navbar-personal ul li a{
+  height: 60px;
+  line-height: 30px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.slide{
+  max-height: 650px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.sombra{
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.70);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.70);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.70);
+}
+
+.botao-enviar{padding: 10px;}
+
+.facebook{
+  overflow: hidden;
+}
+
+.titulo-contato{
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#atividades{
+  height: 400px;
+  background: #333;
+  padding: 5px;
+}
+
+.col-atividades{
+  height: 400px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.col-atividades img{margin-top: 17%;}
+.col-atividades-1{
+
+  background: #99ff99;
+}
+
+.col-atividades-2{
+    background: #009933;
+}
+
+.col-atividades-3{
+  background: #99ff99;
+}
+
+.col-atividades-4{
+  background:#009933;
+}
+
+
+.contato{
+  background:#fff url("http://localhost/recanto2/img/aerea-recanto-da-serra-contato.jpg")no-repeat fixed left;
+  background-origin: content-box;
+  height: 400px;
+}
+.contato p, label{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contato-obs p{
+  color:#004400;
+}
+
+
+
+.contato-info{
+  border-right: 1px solid #333;
+  background: url("http://localhost/recanto2/img/layout/bg-branco-trans.png") repeat;
+  color:#000;
+}
+
+
+
+.titulo-p{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#004400;
+}
+
+.formulario-contato{
+  background: url("http://localhost/recanto2/img/layout/bg-branco-trans.png") repeat;
+}
+.samall-contato {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  color: #004400;
+}
+.info-contato{
+  font-size: 16px;
+}
+
+.titulo-localizacao h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #541154;
+
+  padding-top:  15px;
+  color:#fff;
+  text-align: center;
+
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 30%;  // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+
+.footer-full{
+  background: #2D882D;
+  min-height: 300px;
+  border-top: #999 solid 5px;
+  color:#fff;
+}
+
+.footer{
+
+}
+
+.footer-full h4{
+  text-align: center;
+  padding: 10px;
+  background: 	#187618;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-full span{
+  padding-right:  10px;}
+
+.footer-01, .footer-02, .footer-03{
+  text-align: center;
+
+}
+
+.footer-03{
+
+}
+
+
+.footer-10{background: #333;}
+.direitos{text-align: left;line-height: 50px;color:#fff;font-size: 12px;}
+.desenvolvidopor{text-align:right;; font-size: 9px;line-height: 50px; color:#fff;}
